@@ -29,14 +29,14 @@
         </button>
 
         <!-- Logo text or image -->
-        <a href="home.html"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
+        <a href="index.php"><img src="knavmain.png" alt="logonavbar"  height="80" width="100">
       </div>
       <div class=" -collapse">
         <ul  class="nav navbar-nav">
           <li class="current" href="#"><a></a></li>
           <li><a href="#particles-js">Home</a></li>
           <li><a href="#about">Description</a></li>
-          <li><a href="events.html">Events</a></li>
+          <li><a href="events.php">Events</a></li>
           <li><a href="#register">Register</a></li>
           <li><a href="#sponsors">Sponsors</a></li>
           <li><a href="#bottom-widget">Contact</a></li>

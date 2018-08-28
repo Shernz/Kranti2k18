@@ -6,7 +6,7 @@
 
 <link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Merriweather' rel='stylesheet' type='text/css'>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, fluid">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 <link href="css/style.css" rel="stylesheet" media="screen">
@@ -16,21 +16,20 @@
 
 </head>
 <body>
-
     <!--<div class="my_content_container">
-      <a href="home.html">Home</a>
+      <a href="index.php">Home</a>
       <h2>Events<span id="hover"></span></h2>
     </div>
   -->
   <div class="topnav">
-    <a class="active" href="home.html">Home</a>
+    <a class="active" href="index.php">Home</a>
   
 
   </div>
 
 <div id="all">
   <div class="view view-first">
-    <img src="img/wof4.jpg" />
+    <img src="img/wof4.jpg" class="center-block" />
     <div class="mask">
       <h2>Wheel of Fortune</h2>
       <p>Do you believe in luck? Well here is a test for you</p>
@@ -40,18 +39,17 @@
 
 
   <div class="view view-second">
-    <img src="img/ppt.jpg" />
-    <div class="mask"></div>
-    <div class="content">
-      <h2>Paper-o-aza</h2>
-      <p>Let your ideas build...articulate and present them in front of the best of academicians</p>
-      <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal2">Read More</a>
+    <img src="img/ppt.jpg"  class="center-block" />
+    <div class="mask">
+        <h2>Paper-o-aza</h2>
+        <p>Let your ideas build...articulate and present them in front of the best of academicians</p>
+        <button type="button" class="info btn btn-info btn-lg" data-toggle="modal" data-target="#modal2">Read More</a>
     </div>
   </div>
 
 
   <div class="view view-tenth">
-    <img src="img/blind.jpg" />
+    <img src="img/blind.jpg" class="center-block" />
     <div class="mask">
       <h2>Braille Bonkers</h2>
       <p>Get your hands sharp...as you are not going to use your eyes!</p>
@@ -60,7 +58,7 @@
   </div>
 
   <div class="view view-second">
-    <img src="img/bug.jpg" />
+    <img src="img/bug.jpg" class="center-block"/>
     <div class="mask"></div>
     <div class="content">
       <h2 id="testimonials">Calbug</h2>
@@ -70,7 +68,7 @@
   </div>
 
   <div class="view view-first">
-    <img src="img/quiz.jpg" />
+    <img src="img/quiz.jpg" class="center-block"/>
     <div class="mask">
       <h2>X-Quiz Me</h2>
       <p>Unlocking knowledge at the speed of thought</p>
@@ -80,7 +78,7 @@
 
 
   <div class="view view-tenth">
-    <img src="img/123.jpg" />
+    <img src="img/123.jpg" class="center-block"/>
     <div class="mask">
       <h2>Hunt the code</h2>
       <p>It's not at all important to get it right the first time. It's vitally important to get it right the last time..</p>
@@ -105,7 +103,7 @@
             <div class="card">
               <h3>"Do you believe in luck? Well here is a test for you".</h3>
               <div class="fakeimg" >
-                <img src="img/wof4.jpg">
+                <img src="img/wof4.jpg" class="content-fluid" >
 
               </div>
               <p>Spin the wonder wheel to choose one out of five topics. Test your knowledge on the subject your fate has favoured.
@@ -191,7 +189,7 @@
         <li>Total prices worth 6k.</li>
          </ul>
          <h5>THEME:</h5>
-         <center><h5>AUTOMATION ANYHWHERE</h5></center>
+         <center><h5>AUTOMATION ANYWHERE</h5></center>
          <p>Automation based on any topics can be taken. Some relevant domains are mentioned here:</p>
          <ul>
         <li>IOT</li>
@@ -475,3 +473,5 @@
 </div>
 </div>
 </div>
+</body>
+</html>
