@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-
+<!--made it a php file for it has to run on the server-->
 <head>
   <title>Kranti 18</title>
   <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta content="width=device-width, initial-scale=1, fluid" name="viewport"><!--The extra thing that was added was deleted-->
   <!-- css -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,300,700,800" rel="stylesheet" media="screen">
   <link rel="shortcut icon" type="image/x-icon" href="klogo.ico" />
@@ -16,9 +16,9 @@
 </head>
 
 <body>
-
+<div class="wrap">
   <!-- Navigation -->
-  <nav id="navb" class="navbar navbar-default" role="navigation">
+  <nav id="navb" class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- //added nav bar-fixed-top-->
     <div class="container" >
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -104,7 +104,44 @@
       <h2>Register</h2>
     </div>
     <br><br>
-    <img src="img/registration_panel.jpg" alt="">
+    <!--img src="img/registration_panel.jpg" alt=""-->
+    <!--a href="../kranti-2k18/"></a-->
+    <?php
+        if(isset($_GET['registration']))
+        {
+            $message = $_GET['registration'];
+            echo $message;
+        }
+    ?>
+    <div class="container">
+    <form  action="registration.php" method="post">
+      <div class="form-group">
+        <label for="name">Name :
+        <input type="text" name="name" class="form-control" placeholder="Enter name"></label>
+        </div>
+      <div class="form-group">
+        <label for="email">Email :
+        <input type="text" name="email" class="form-control" placeholder="Enter email"></label>
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact Number :
+        <input type="text" name="contact" class="form-control" placeholder="Enter contact number"></label>
+      </div>
+      <div class="form-group">
+        <label for="college">College Name :
+        <input type="text" name="col_name" class="form-control" placeholder="Enter college name"></label>
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender :</label>
+      </div>
+      <div class="radio">
+        <label class="radio-inline">
+        <input type="radio" name="gender"  value='male'>Male</label>
+        <label class="radio-inline"></label>
+        <input type="radio" name="gender" value='female'>Female</label>
+      </div>
+    <button type="submit" class="btn btn-default" name="submit">Submit</button>
+    </form>
   </div>
 </section>
 
@@ -209,7 +246,6 @@
   </footer>
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-
   <!-- js -->
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -224,12 +260,11 @@
   <script src="js/stellar.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
-  <script src="js/timer.js">
-  <!-- Contact Form JavaScript File -->
+  <script src="js/timer.js"></script><!--closed the script tag-->
+  <!--Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
-
-  <!-- Template Custom Javascript File -->
+ <!-- Template Custom Javascript File -->
   <script src="js/custom.js"></script>
-
+  </div>
 </body>
 </html>

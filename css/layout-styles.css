@@ -24,9 +24,9 @@ h5,.h5{font-size:20px;line-height:24px}
 h6,.h6{font-size:18px;line-height:24px}
 
 a{color:#3282e6;}
-a:hover,a:focus{color:#165db5;text-decoration:underline}
+a:hover,a:focus{color:#165db5;text-decoration:underline;}
 
-.text-center{text-align:center}
+.text-center{text-align:center;}
 
 .wrap {
   min-height: 100%;

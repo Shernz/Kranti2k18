@@ -157,7 +157,7 @@ Navbar
 	background-color:#0d3e59	;
 }
 nav.navbar{
-	position: fixed;
+	position: unset;/* changed from fixed to unset*/
 	top: -72px;
 	margin-bottom: 0px;
 	padding: 10px 0px 10px 0px;
@@ -555,4 +555,9 @@ more media queries
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+/*Wrapper class added as extra white spaces were present*/
+.wrap
+{
+	overflow-x: hidden;
 }
